@@ -11,7 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode KeyDown = KeyCode.S;
     public KeyCode KeyRight = KeyCode.D;
     public KeyCode KeyLeft = KeyCode.A;
-    public KeyCode KeyChangeColor = KeyCode.C;
+    [SerializeField] private KeyCode KeyChangeColor = KeyCode.R;
+    
     void Start()
     {
         // Get the SpriteRenderer component attached to this GameObject
